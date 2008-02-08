@@ -45,4 +45,3 @@ Features:
 %defattr(-,root,root,0755)
 %{_bindir}/g15macro
 %{_datadir}/g15macro
-##%{_mandir}/man1/g15macro.1*
