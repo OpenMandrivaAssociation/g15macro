@@ -1,6 +1,6 @@
 Name:                   g15macro
 Version:                1.0.3
-Release:                %mkrel 2
+Release:                %mkrel 4
 Summary:                Simple Macro recording/playback app for G15Daemon
 License:                GPL
 Group:                  System/Configuration/Hardware
