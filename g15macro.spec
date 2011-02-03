@@ -1,6 +1,6 @@
 Name:                   g15macro
 Version:                1.0.3
-Release:                %mkrel 6
+Release:                %mkrel 7
 Summary:                Simple Macro recording/playback app for G15Daemon
 License:                GPL
 Group:                  System/Configuration/Hardware
@@ -9,8 +9,7 @@ Source0:                http://downloads.sourceforge.net/g15daemon/g15macro-%{ve
 BuildRequires:          g15-devel
 BuildRequires:          g15daemon_client-devel
 BuildRequires:          g15render-devel
-BuildRequires:          X11-devel
-BuildRequires:          x11-proto-devel
+BuildRequires:          libx11-devel
 BuildRequires:          libxtst-devel
 BuildRoot:              %{_tmppath}/%{name}-%{version}-%{release}-root
 
