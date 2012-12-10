@@ -1,0 +1,13 @@
+Index: g15macro-1.0.3/Makefile.am
+===================================================================
+--- g15macro-1.0.3.orig/Makefile.am
++++ g15macro-1.0.3/Makefile.am
+@@ -10,7 +10,7 @@ doc_DATA = README ChangeLog AUTHORS NEWS
+ imagedir = $(prefix)/share/g15macro/splash
+ image_DATA = ${top_builddir}/g15macro.wbmp
+ 
+-LIBS = -lg15daemon_client -lg15render -lX11 -lXtst 
++LIBS = -lg15daemon_client -lg15render -lX11 -lXtst -lpthread
+ IMCLUDES = -I
+ g15macro_LDFLAGS = -avoid-version
+ g15macro_SOURCES =  g15macro.c
