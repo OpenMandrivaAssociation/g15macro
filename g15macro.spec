@@ -10,8 +10,8 @@ Patch0:                 g15macro-1.0.3-rosa-linkage.patch
 BuildRequires:          g15-devel
 BuildRequires:          g15daemon_client-devel
 BuildRequires:          g15render-devel
-BuildRequires:          libx11-devel
-BuildRequires:          libxtst-devel
+BuildRequires:          pkgconfig(x11)
+BuildRequires:          pkgconfig(xtst)
 
 %description
 A simple Macro recording/playback app for G15Daemon.
