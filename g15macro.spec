@@ -1,6 +1,6 @@
 Name:                   g15macro
 Version:                1.0.3
-Release:                9
+Release:                10
 Summary:                Simple Macro recording/playback app for G15Daemon
 License:                GPLv2+
 Group:                  System/Configuration/Hardware
