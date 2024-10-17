@@ -4,7 +4,7 @@ Release:                10
 Summary:                Simple Macro recording/playback app for G15Daemon
 License:                GPLv2+
 Group:                  System/Configuration/Hardware
-URL:                    http://g15daemon.sourceforge.net/
+URL:                    https://g15daemon.sourceforge.net/
 Source0:                http://downloads.sourceforge.net/g15daemon/g15macro-%{version}.tar.bz2
 Patch0:                 g15macro-1.0.3-rosa-linkage.patch
 BuildRequires:          g15-devel
